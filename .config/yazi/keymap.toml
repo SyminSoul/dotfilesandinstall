@@ -51,7 +51,7 @@ run = "plugin relative-motions 9"
 desc = "Move in relative steps"
 # Compress
 
-[[manager.prepend_keymap]]
-on   = [ "c", "a" ]
-run  = "plugin compress"
-desc = "Archive selected files"
+[[mgr.prepend_keymap]]
+on = ["C"]
+run = "plugin ouch"
+desc = "Compress with ouch"
