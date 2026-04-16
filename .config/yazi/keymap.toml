@@ -55,3 +55,9 @@ desc = "Move in relative steps"
 on = ["C"]
 run = "plugin ouch"
 desc = "Compress with ouch"
+
+#BOOKMARKS
+[[mgr.prepend_keymap]]
+on   = [ "g", "w" ]
+run  = "cd ~/Homework"
+desc = "Cd to ~/Homework"

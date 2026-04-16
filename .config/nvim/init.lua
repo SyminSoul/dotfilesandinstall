@@ -1,3 +1,2 @@
-require("symens.lazy")
-require("symens")
-print("hello")
+-- bootstrap lazy.nvim, LazyVim and your plugins
+require("config.lazy")

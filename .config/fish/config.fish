@@ -2,9 +2,9 @@ set -g fish_greeting
 set -gx EDITOR nvim
 set -gx VISUAL nvim
 
-if status is-interactive	
-    starship init fish | source
-end
+# if status is-interactive	
+#     starship init fish | source
+# end
 # List Directory
 alias l='eza -lh  --icons=auto' # long list
 alias ls='eza -1   --icons=auto' # short list
@@ -40,3 +40,4 @@ function y
 	end
 	rm -f -- "$tmp"
 end
+starship init fish | source

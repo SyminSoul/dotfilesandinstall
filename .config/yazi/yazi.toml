@@ -4,3 +4,12 @@ show_hidden    = true
 [[plugin.prepend_previewers]]
 mime = "application/{*zip,tar,bzip2,7z*,rar,xz,zstd,java-archive}"
 run  = "ouch"
+
+[open]
+prepend_rules = [
+    { name = "*.cpp", use = "edit" },
+    { name = "*.hpp", use = "edit" },
+    { name = "*.c",   use = "edit" },
+    { name = "*.h",   use = "edit" },
+    # Можешь добавить сюда любые другие расширения (txt, py, js и т.д.)
+]
